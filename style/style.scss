@@ -1,0 +1,118 @@
+@import 'reset';
+$blueWhite:#33BAEC;
+
+
+.container{
+    max-width: 1389px;
+    margin: 0 auto;
+}
+.container2{
+    max-width: 1002px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 28px;
+    .header{
+        display: flex;
+        align-items: flex-start;
+
+        &__logo{
+            padding: 15px 19px;
+            background: white;
+        }
+        nav{
+            margin-left: 25px;
+            padding-top: 13.6px;
+            margin-right: 244px;
+            .menu{
+                display: flex;
+                
+                &__item{
+                    margin-right: 17px;
+                }
+                &__item:nth-child(2){
+                    margin-right: 14px;
+                }
+                &__item:nth-child(3){
+                    margin-right: 25px;
+                }
+                &__link{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px / 14px * 100%;
+                    color: #000000;
+                }
+                .active{
+                    font-family: 'Roboto';
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px / 16px * 100%;
+                    color: $blueWhite;
+                }
+            }
+        }
+        &__link{
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px / 18px * 100%;
+            color: #20305B;
+            margin-top: 13px;
+            position: relative;
+        }
+        &__link::after{
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background: #20305B;
+            left: 0;
+            bottom: 2px;
+        }
+        &__cabinet{
+            margin-left: 46px;
+            background: #5DB7E7;
+            border-radius: 28px;
+            padding: 7px 20px;
+            padding-left: 48px;
+            border: none;
+            font-family: 'Roboto';
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px / 14px * 100%;
+            color: #FFFFFF;
+            position: relative;
+            margin-top: 9px;
+        }
+        &__cabinet::before{
+            content: "";
+            position: absolute;
+            background: url('../img/user.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 19px;
+            height: 18px;
+            left: 18px;
+        }
+        &__btn-menu{
+            margin-left: 39px;
+            margin-top: 7px;
+        }
+
+    }
+}
+.port{
+    background: #223259;
+    padding-top: 18px;
+    padding-bottom: 23px;
+    margin-top: -148px;
+    &__title{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 33px;
+        line-height: 45px / 33px * 100%;
+        color: #FFFFFF;
+    }
+}

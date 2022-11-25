@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1389px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1002px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 28px;
+}
+header .header {
+  display: flex;
+  align-items: flex-start;
+}
+header .header__logo {
+  padding: 15px 19px;
+  background: white;
+}
+header .header nav {
+  margin-left: 25px;
+  padding-top: 13.6px;
+  margin-right: 244px;
+}
+header .header nav .menu {
+  display: flex;
+}
+header .header nav .menu__item {
+  margin-right: 17px;
+}
+header .header nav .menu__item:nth-child(2) {
+  margin-right: 14px;
+}
+header .header nav .menu__item:nth-child(3) {
+  margin-right: 25px;
+}
+header .header nav .menu__link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114.2857142857%;
+  color: #000000;
+}
+header .header nav .menu .active {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 118.75%;
+  color: #33BAEC;
+}
+header .header__link {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 116.6666666667%;
+  color: #20305B;
+  margin-top: 13px;
+  position: relative;
+}
+header .header__link::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #20305B;
+  left: 0;
+  bottom: 2px;
+}
+header .header__cabinet {
+  margin-left: 46px;
+  background: #5DB7E7;
+  border-radius: 28px;
+  padding: 7px 20px;
+  padding-left: 48px;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114.2857142857%;
+  color: #FFFFFF;
+  position: relative;
+  margin-top: 9px;
+}
+header .header__cabinet::before {
+  content: "";
+  position: absolute;
+  background: url("../img/user.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 19px;
+  height: 18px;
+  left: 18px;
+}
+header .header__btn-menu {
+  margin-left: 39px;
+  margin-top: 7px;
+}
+
+.port {
+  background: #223259;
+  padding-top: 18px;
+  padding-bottom: 23px;
+  margin-top: -148px;
+}
+.port__title {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 136.3636363636%;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
